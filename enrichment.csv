@@ -1,0 +1,318 @@
+File Name,Topic Detection,Keyword Detection,Content Safety Detection,Entity Detection,Sentiment Analysis
+Dance_Class.mp3,"RunningAndJogging: 100.0
+FitnessAndExercise: 88.0
+Cycling: 76.0
+Climbing: 41.0
+Weightlifting: 39.0
+Tennis: 13.0
+HorseRacing: 13.0
+TableTennis: 13.0
+EquineSports: 11.0
+Walking: 9.0
+Bodybuilding: 7.0
+Gymnastics: 6.0
+MotorcycleSports: 6.0
+Badminton: 3.0
+TrackAndField: 2.0
+ExerciseAndFitnessVideoGames: 2.0
+Motorcycles: 2.0
+Golf: 2.0
+ExtremeSports: 2.0
+Squash: 2.0
+","little bit ( count: 12 )
+Legs ( count: 7 )
+form ( count: 7 )
+speed increases ( count: 4 )
+second position ( count: 4 )
+strength ( count: 4 )
+enough resistance ( count: 3 )
+team sprint ( count: 2 )
+team climb ( count: 2 )
+resistance positions ( count: 1 )
+First challenge ( count: 1 )
+Title stroke highlight ( count: 1 )
+3rd time ( count: 1 )
+leg speed ( count: 1 )
+butt breathing ( count: 1 )
+",No content labels were triggered.,,"Total Positive Sentiments: 51 (16.14%)
+Total Negative Sentiments: 9 (2.85%)
+Total Neutral Sentiments: 256 (81.01%)"
+Postman_101.mp3,"WebDevelopment: 100.0
+WebDesignAndHTML: 55.0
+ComputerSoftwareAndApplications: 34.0
+WebConferencing: 32.0
+DesktopPublishing: 22.0
+Databases: 17.0
+Browsers: 16.0
+DataStorageAndWarehousing: 16.0
+OfficeProperty: 15.0
+ProgrammingLanguages: 13.0
+RemoteWorking: 12.0
+WebHosting: 11.0
+Email: 7.0
+Search: 6.0
+GiftsAndGreetingsCards: 6.0
+PublishingIndustry: 5.0
+BusinessExpos&Conferences: 5.0
+ContentProduction: 5.0
+CloudComputing: 3.0
+Scrapbooking: 3.0
+","API network ( count: 7 )
+public Rest APIs ( count: 3 )
+new request ( count: 3 )
+APIs collections ( count: 2 )
+other APIs ( count: 2 )
+API projects ( count: 2 )
+API development ( count: 2 )
+other API collections ( count: 1 )
+other cool API companies ( count: 1 )
+house APIs ( count: 1 )
+Postman Galaxy ( count: 1 )
+Astana Postman ( count: 1 )
+Webinar collection ( count: 1 )
+API users ( count: 1 )
+free collections ( count: 1 )
+",No content labels were triggered.,"occupation ( count: 22 )
+person_name ( count: 19 )
+organization ( count: 13 )
+event ( count: 4 )
+url ( count: 3 )
+nationality ( count: 1 )
+date_of_birth ( count: 1 )
+date ( count: 1 )
+","Total Positive Sentiments: 103 (22.49%)
+Total Negative Sentiments: 12 (2.62%)
+Total Neutral Sentiments: 343 (74.89%)"
+Retool_4_minute_demo.mp3,"DataStorageAndWarehousing: 100.0
+Databases: 96.0
+RetailIndustry: 55.0
+WebDesignAndHTML: 50.0
+InformationAndNetworkSecurity: 49.0
+Shopping: 44.0
+WebDevelopment: 30.0
+Search: 11.0
+Sales: 9.0
+HomeSecurity: 5.0
+GroceryShopping: 5.0
+GiftsAndGreetingsCards: 5.0
+SalesAndPromotions: 4.0
+ComputerSoftwareAndApplications: 4.0
+AntivirusSoftware: 2.0
+ProgrammingLanguages: 2.0
+HouseholdSupplies: 1.0
+PartySuppliesAndDecorations: 1.0
+InternetForBeginners: 1.0
+WebConferencing: 1.0
+","text input ( count: 5 )
+users ( count: 5 )
+first name ( count: 4 )
+different orders ( count: 3 )
+data ID ( count: 2 )
+dot data ( count: 2 )
+Ben's orders ( count: 2 )
+dot selected row dot data dot first name ( count: 1 )
+user ID ( count: 1 )
+end user mode ( count: 1 )
+exact first name ( count: 1 )
+user orders ( count: 1 )
+orders table ( count: 1 )
+order ID ( count: 1 )
+internal tools ( count: 1 )
+",No content labels were triggered.,"person_name ( count: 7 )
+organization ( count: 2 )
+","Total Positive Sentiments: 16 (23.53%)
+Total Negative Sentiments: 0 (0.0%)
+Total Neutral Sentiments: 52 (76.47%)"
+Stand-Up_Comedy_in_the_Age_of_Social_Distancing.mp3,"ComedyEvents: 100.0
+ComedyTV: 82.0
+RealityTV: 50.0
+TalkRadio: 24.0
+InternetSafety: 9.0
+VideoProduction: 4.0
+Cheerleading: 4.0
+WebConferencing: 3.0
+SocialNetworking: 1.0
+HumorAndSatire: 1.0
+BodyArt: 1.0
+ContentProduction: 1.0
+FactualTV: 1.0
+SpecialInterestTV: 1.0
+MusicTV: 0.0
+FanConventions: 0.0
+EducationalRadio: 0.0
+Prom: 0.0
+RoadTrips: 0.0
+Men'sFormalWear: 0.0
+","comedy shows ( count: 3 )
+online video ( count: 2 )
+live show ( count: 2 )
+virtual comedy shows ( count: 1 )
+most shows ( count: 1 )
+live stream comedy show ( count: 1 )
+how many Zoom comedy shows ( count: 1 )
+first live stream show ( count: 1 )
+monthly comedy show ( count: 1 )
+Stayathome comedy show ( count: 1 )
+digital comedy ( count: 1 )
+video stream ( count: 1 )
+online shows ( count: 1 )
+another virtual show ( count: 1 )
+Internet shows ( count: 1 )
+","profanity: 100.0
+pornography: 44.0
+nsfw: 100.0
+health_issues: 42.0
+","occupation ( count: 12 )
+person_name ( count: 8 )
+organization ( count: 6 )
+medical_condition ( count: 5 )
+nationality ( count: 2 )
+event ( count: 1 )
+money_amount ( count: 1 )
+","Total Positive Sentiments: 27 (20.15%)
+Total Negative Sentiments: 43 (32.09%)
+Total Neutral Sentiments: 64 (47.76%)"
+Using_the_Stripe_Dashboard.mp3,"CreditCards: 100.0
+DataStorageAndWarehousing: 16.0
+GovernmentBusiness: 9.0
+DebtFactoring&InvoiceDiscounting: 8.0
+Search: 8.0
+Databases: 7.0
+BusinessOperations: 6.0
+Sales: 5.0
+InformationAndNetworkSecurity: 4.0
+WebHosting: 3.0
+HomeSecurity: 1.0
+ComputerSoftwareAndApplications: 1.0
+BusinessAccounting&Finance: 1.0
+CloudComputing: 1.0
+ConsumerIssues: 1.0
+FinancialPlanning: 1.0
+Bankruptcy: 0.0
+WebDevelopment: 0.0
+Logistics: 0.0
+SalesAndPromotions: 0.0
+","charges ( count: 5 )
+payment methods ( count: 2 )
+Stripe Support ( count: 2 )
+more information ( count: 2 )
+credit card payments ( count: 1 )
+debit card payments ( count: 1 )
+payment data ( count: 1 )
+customer service emails ( count: 1 )
+more business data ( count: 1 )
+new customers ( count: 1 )
+customer receipts ( count: 1 )
+multiple credit cards ( count: 1 )
+multiparty payments ( count: 1 )
+ACH payments ( count: 1 )
+alternative payment methods ( count: 1 )
+","financials: 42.0
+","organization ( count: 22 )
+occupation ( count: 7 )
+location ( count: 2 )
+credit_card_number ( count: 1 )
+credit_card_expiration ( count: 1 )
+money_amount ( count: 1 )
+url ( count: 1 )
+","Total Positive Sentiments: 14 (11.11%)
+Total Negative Sentiments: 9 (7.14%)
+Total Neutral Sentiments: 103 (81.75%)"
+Zoom_Call_Cooking_Challenge_Amateurs_Try_To_Bake_Cheesecake.mp3,"DessertsAndBaking: 100.0
+Cookbooks: 9.0
+Cooking: 8.0
+EarlyChildhoodEducation: 3.0
+DrawingAndSketching: 3.0
+HomeworkAndStudy: 3.0
+EducationalAssessment: 2.0
+Bars&Restaurants: 2.0
+InteriorDecorating: 2.0
+DiningOut: 1.0
+CelebrityHomes: 1.0
+Non-AlcoholicBeverages: 1.0
+Apartments: 1.0
+Beekeeping: 1.0
+BarbecuesAndGrilling: 1.0
+HolisticHealth: 1.0
+Food&Drink: 1.0
+StandardizedTesting: 0.0
+AudioProduction: 0.0
+AlcoholicBeverages: 0.0
+","today ( count: 10 )
+cream cheese ( count: 5 )
+many things ( count: 2 )
+Julia's cheesecake ( count: 2 )
+aluminum foil ( count: 2 )
+kindergarten teacher ( count: 2 )
+edible cheesecakes ( count: 1 )
+food stylist crack cheesecake ( count: 1 )
+boiling water ( count: 1 )
+little tiny pieces ( count: 1 )
+springboard pan ( count: 1 )
+chunky leaky cheesecake ( count: 1 )
+good luck ( count: 1 )
+middle school teachers ( count: 1 )
+classic cheesecake ( count: 1 )
+","alcohol: 37.0
+","person_name ( count: 41 )
+occupation ( count: 12 )
+organization ( count: 5 )
+location ( count: 4 )
+medical_condition ( count: 2 )
+drug ( count: 1 )
+money_amount ( count: 1 )
+","Total Positive Sentiments: 86 (18.18%)
+Total Negative Sentiments: 85 (17.97%)
+Total Neutral Sentiments: 302 (63.85%)"
+Zoom_Class_Meeting_Soc_100_Downing_212021.mp3,"Food&Drink: 100.0
+FoodIndustry: 74.0
+FoodMovements: 70.0
+HealthyCookingAndEating: 55.0
+EducationalAssessment: 27.0
+Agriculture: 26.0
+AsiaTravel: 25.0
+Nutrition: 23.0
+StandardizedTesting: 20.0
+LandAndFarms: 20.0
+PoliticalEvent: 19.0
+WeightLoss: 16.0
+VeganDiets: 15.0
+PopCulture: 15.0
+Cookbooks: 14.0
+VegetarianDiets: 14.0
+PoliticalIssues: 13.0
+HomeworkAndStudy: 13.0
+Cooking: 12.0
+Parenting: 11.0
+","organic food ( count: 5 )
+Food waste ( count: 3 )
+food stuff ( count: 2 )
+food food safety ( count: 1 )
+fast food culture ( count: 1 )
+different people ( count: 1 )
+good people ( count: 1 )
+growing food ( count: 1 )
+conventional food ( count: 1 )
+food allergies ( count: 1 )
+human food ( count: 1 )
+food choices ( count: 1 )
+food production ( count: 1 )
+pet food ( count: 1 )
+edible food ( count: 1 )
+",No content labels were triggered.,"location ( count: 34 )
+occupation ( count: 26 )
+person_name ( count: 25 )
+organization ( count: 20 )
+nationality ( count: 19 )
+medical_condition ( count: 10 )
+date ( count: 7 )
+person_age ( count: 4 )
+religion ( count: 3 )
+time ( count: 2 )
+event ( count: 2 )
+money_amount ( count: 1 )
+drug ( count: 1 )
+language ( count: 1 )
+","Total Positive Sentiments: 156 (14.7%)
+Total Negative Sentiments: 117 (11.03%)
+Total Neutral Sentiments: 788 (74.27%)"

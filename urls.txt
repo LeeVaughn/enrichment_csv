@@ -1,0 +1,7 @@
+Dance_Class.mp3,https://cdn.assemblyai.com/upload/4477a070-d8f7-4dd7-9a49-b0f684eab867
+Postman_101.mp3,https://cdn.assemblyai.com/upload/7e682f64-f10f-4904-a689-b29bb5094b78
+Retool_4_minute_demo.mp3,https://cdn.assemblyai.com/upload/dd344c79-e80a-4be4-a6e4-ed40f0142765
+Stand-Up_Comedy_in_the_Age_of_Social_Distancing.mp3,https://cdn.assemblyai.com/upload/e96933f2-f727-45c1-96d0-0ac41c774d3a
+Using_the_Stripe_Dashboard.mp3,https://cdn.assemblyai.com/upload/32945e61-faaf-49ee-8f1f-32bc829004ad
+Zoom_Call_Cooking_Challenge_Amateurs_Try_To_Bake_Cheesecake.mp3,https://cdn.assemblyai.com/upload/19f2bd5c-b2c7-4d20-b127-90e76d3936f1
+Zoom_Class_Meeting_Soc_100_Downing_212021.mp3,https://cdn.assemblyai.com/upload/49bf17bf-c026-4ad7-814c-d3c0cae63993
