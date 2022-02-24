@@ -149,12 +149,12 @@ f = open("urls.txt", "r")
 for x in f:
     lines.append(x)
 
-with ThreadPoolExecutor(5) as executor:
+with ThreadPoolExecutor(10) as executor:
     for line in lines:
         # splits file names and urls
         split_line = line.split(",")
         split_url = split_line[1].split("\n")
-        executor.submit(run_file(split_url[0], split_line[0]))
+        executor.submit(run_file, split_url[0], split_line[0])
 
 
 
