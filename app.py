@@ -43,7 +43,7 @@ def wait_for_result(id):
 # Run the entire program to detect sponsorships/advertisements
 def main(audio_url):
     response = start_transcript(audio_url)
-    # print("transcript id: %s" % response['id'])
+    print("transcript id: %s" % response['id'])
     response = wait_for_result(response['id'])
 
     if response['status'] == "error":
@@ -54,4 +54,5 @@ def main(audio_url):
 
 if __name__ == "__main__":
     audio_url = sys.argv[1]
+    print(audio_url)
     main(audio_url)
