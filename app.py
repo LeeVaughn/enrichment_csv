@@ -4,7 +4,7 @@ import requests
 
 
 base_endpoint = "https://api.assemblyai.com/v2"
-headers = {'authorization': "enter your api key here"}
+headers = {'authorization': "your api key here"}
 
 
 # Start the transcription process
@@ -12,14 +12,32 @@ def start_transcript(audio_url):
 
     post_json = {
         "audio_url": audio_url,
+        # "language_code": "de",
+        # "punctuate": False,
+        # "format_text": False,
+        # "word_boost": word_boost,
+        # "dual_channel": True,
+        "entity_detection": True,
         "auto_highlights": True,
         "iab_categories": True,
-        "entity_detection": True,
-        "sentiment_analysis": True,
         "content_safety": True,
+        "sentiment_analysis": True,
+        "auto_chapters": True,
+        "speaker_labels": True,
+        # "disfluencies": True,
+        # "filter_profanity": True,
+        # "redact_pii": True,
+        # "redact_pii_sub": "entity_name",
+        # "redact_pii_policies": [
+        #     "medical_process", "medical_condition", "blood_type", "drug", "injury", "number_sequence", "email_address", "date_of_birth", "phone_number", "us_social_security_number", "credit_card_number", "credit_card_expiration", "credit_card_cvv", "date", "nationality", "event", "language", "location", "money_amount", "person_name", "person_age", "organization", "political_affiliation", "occupation", "religion"
+        # ]
     }
 
     r = requests.post(base_endpoint + "/transcript", headers=headers, json=post_json)
+
+    if 'error' in r.json():
+        print(r.json())
+
     return r.json()
 
 
@@ -45,6 +63,8 @@ def main(audio_url):
     response = start_transcript(audio_url)
     print("transcript id: %s" % response['id'])
     response = wait_for_result(response['id'])
+
+    # print(response)
 
     if response['status'] == "error":
         raise Exception(response['error'])
