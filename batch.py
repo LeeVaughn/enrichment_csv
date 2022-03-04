@@ -2,6 +2,7 @@ from collections import Counter
 import csv
 from concurrent.futures import ThreadPoolExecutor
 import json
+import datetime
 
 
 from app import main
@@ -97,25 +98,43 @@ def content_safety_detection(data):
     
     return text
 
+def chapter_detection(data):
+    if (data.get('content_safety') == True):
+        chapters = data['chapters']
+        text = ""
+
+        for chapter in chapters:
+            time = datetime.timedelta(milliseconds=int(chapter['start']))
+            time = (str(time).split(".")[0])
+            text += f"{time}\n"
+            text += f"Headline: {chapter['headline']}\n"
+            text += f"Summary: {chapter['summary']}\n\n"
+
+        return text
+    else:
+        text = "No chapters were detected."
+        return text
+
 
 def run_file(audio_url, file_name):
     global header
     data = main(audio_url)
     text_filename = file_name + ".txt"
     json_filename = file_name + ".json"
-    file1 = open("./text/" + text_filename, 'x')
-    file2 = open("./json/" + json_filename, 'x')
+    text_file = open("./text/" + text_filename, 'x')
+    json_file = open("./json/" + json_filename, 'x')
 
-    file1.write(data['text'])
-    file1.close()
-    file2.write(json.dumps(data))
-    file2.close()
+    text_file.write(data['text'])
+    text_file.close()
+    json_file.write(json.dumps(data, indent=2))
+    json_file.close()
 
     sentiment = ""
     entities = ""
     keywords = ""
     topics = ""
     content_safety = ""
+    chapters = ""
 
     if len(data['text']) != 0:
         sentiment = sentiment_analysis(data)
@@ -123,10 +142,11 @@ def run_file(audio_url, file_name):
         keywords = keyword_detection(data)
         topics = topic_detection(data)
         content_safety = content_safety_detection(data)
+        chapters = chapter_detection(data)
 
 
     with open(f'enrichment.csv', 'a', newline='') as f:
-        fieldnames = ['File Name','Topic Detection', 'Keyword Detection', 'Content Safety Detection', 'Entity Detection', 'Sentiment Analysis']
+        fieldnames = ['File Name','Topic Detection', 'Keyword Detection', 'Content Safety Detection', 'Entity Detection', 'Sentiment Analysis', 'Auto Chapters']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
 
 
@@ -140,8 +160,17 @@ def run_file(audio_url, file_name):
             'Keyword Detection': keywords,
             'Content Safety Detection': content_safety,
             'Entity Detection': entities,
-            'Sentiment Analysis': sentiment
+            'Sentiment Analysis': sentiment,
+            'Auto Chapters': chapters
         })
+
+    if (len(data.get('utterances'))) >= 1:
+        print("if")
+        diarization_filename = file_name + ".json"
+        diarization_file = open("./diarization/" + diarization_filename, 'x')
+
+        diarization_file.write(json.dumps(data['utterances'], indent=2))
+        diarization_file.close()
 
 
 f = open("urls.txt", "r")
