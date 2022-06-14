@@ -121,12 +121,12 @@ def run_file(audio_url, file_name):
     data = main(audio_url)
     text_filename = file_name + ".txt"
     json_filename = file_name + ".json"
-    text_file = open("./text/" + text_filename, 'x')
-    json_file = open("./json/" + json_filename, 'x')
+    text_file = open("./text/" + text_filename, 'x', encoding='utf8')
+    json_file = open("./json/" + json_filename, 'x', encoding='utf8')
 
     text_file.write(data['text'])
     text_file.close()
-    json_file.write(json.dumps(data, indent=2))
+    json_file.write(json.dumps(data, ensure_ascii=False, indent=2))
     json_file.close()
 
     sentiment = ""
@@ -165,7 +165,6 @@ def run_file(audio_url, file_name):
         })
 
     if (len(data.get('utterances'))) >= 1:
-        print("if")
         diarization_filename = file_name + ".json"
         diarization_file = open("./diarization/" + diarization_filename, 'x')
 
